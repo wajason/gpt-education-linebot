@@ -49,7 +49,7 @@ model_management = {}
 
 
 api_keys = {}
-api_key = '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' #直接在這裡改
+api_key = 'your api keys' #直接在這裡改
 
 
 
@@ -184,7 +184,7 @@ def handle_text_message(event):
       if text.startswith('「註冊」'):
         #強制正確
         #api_key = text[3:].strip()
-        api_key = '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'
+        api_key = 'your api keys'
         #強制正確
         model = OpenAIModel(api_key=api_key)
         is_successful, _, _ = model.check_token_valid()
@@ -231,7 +231,7 @@ def handle_text_message(event):
       elif text.startswith('「圖像」'):
         #強制註冊
         #api_key = text[3:].strip()
-        api_key = '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'
+        api_key = 'your api keys'
         #強制正確
         model = OpenAIModel(api_key=api_key)
         is_successful, _, _ = model.check_token_valid()
@@ -293,7 +293,7 @@ def handle_text_message(event):
       else:
         #強制註冊
         #api_key = text[3:].strip()
-        api_key = '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'
+        api_key = 'your api keys'
         #強制正確
         model = OpenAIModel(api_key=api_key)
         is_successful, _, _ = model.check_token_valid()
