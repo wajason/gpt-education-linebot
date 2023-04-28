@@ -8,6 +8,7 @@
 ## 更新
 - 2023/03/18 新增 Whipser 服務、用戶可以新增自己的 Token、新增指令（參考文件下方）
 - 2023/03/03 模型換成 chat completion: `gpt-3.5-turbo`
+- 要出入自己的api keys喔!!在main.py那邊!!(大概有四個左右
 
 
 ## 介紹
